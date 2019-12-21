@@ -13,7 +13,7 @@ So it's time for IDA.
 
 ![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/idaview.png)
 
-So it's clear now he is just checking if the  argv[1] = 'cybertalent' which is the username and do the same thing for argv[2]='P@ss'.
+So it's clear now he is just checking if the  argv[1] = 'cybertalent' which is the username and do the same thing for argv[2]='P@ss' which is the pass.
 
 # Flag:
 flag{cybertalent:P@ss}

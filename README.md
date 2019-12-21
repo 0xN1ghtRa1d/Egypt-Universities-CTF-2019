@@ -92,10 +92,13 @@ Now there was another hint which say "the image contain an MD5 hash which is the
 
 # Flag
 flag{0eed48c187f783159a6ab6dba559d458}
+# Challenge Name
+E-CORP
 # Category
 
 Web Security
-
+# Level
+Hard
 # Points
 
 200

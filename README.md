@@ -39,7 +39,7 @@ Keep Calm
 # Category
 Digital Forensics
 # Level
-Easy
+Meduim
 # Points
 100
 # Description
@@ -60,3 +60,35 @@ After runing the script we found two valid strings.
 ![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/script_result.png)
 # Flag
 flag{1234567890}
+# Challenge name
+Irving Secret
+# Category
+Cryptography
+# Level
+Meduim
+# Points
+100
+# Description
+In this challenge we are given a pcap file which seems contain some random data.
+
+![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/keep_clam1.png)
+
+We were stuck here not knowing what to do,after some time we got a hint which say "The data in the pcap file is Rotated usinf ROT13".
+Now we can start the work first we have to save the data then rotate it.
+From wireshark show data as Raw then save it.
+
+![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/keep_clam2.png)
+
+Now we have a file contains the data we have to rotate all the data using ROT13 ,I used https://gchq.github.io/CyberChef/ to do this part.
+
+![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/cyberchef2.png)
+If we look carefully in the output window we will find EXIF which is the start of a jpeg file so let's save it and check the content of it.
+
+![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/flag.jpeg)
+
+Now there was another hint which say "the image contain an MD5 hash which is the flag",we were runing out of time so we couldn't solve it but the solution was to simple the flag was the MD5sum of the image. 
+
+![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/ir_flag.png)
+
+# Flag
+flag{0eed48c187f783159a6ab6dba559d458}

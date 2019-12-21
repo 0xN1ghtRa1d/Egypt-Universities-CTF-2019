@@ -2,6 +2,8 @@
 Hey all this is 0xN1ghtRa1d , this is our writeups for Egypt-Universities-CTF-2019 .
 # Category
 Malware Reverse Engineering
+# Challenge name
+Lohin
 # Level
 Easy
 # Points
@@ -18,7 +20,10 @@ So it's clear now he is just checking if the  argv[1] = 'cybertalent' which is t
 # Flag
 flag{cybertalent:P@ss}
 # Category
-Digital Forensics# Level
+Digital Forensics
+# Challenge name
+Pekz
+# Level
 Easy
 # Points
 50
@@ -26,3 +31,12 @@ Easy
 You are given a pcap file which contain some HTTP requests and some TCP stream, you can find the flag easily just by viewing the strings.
 
 ![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/pekz.png)
+
+# Flag
+FLAG{0h_dump_is_ez_recover_is_eazi3r!!}
+# Category
+Digital Forensics# Level
+Easy
+# Points
+50
+# Description

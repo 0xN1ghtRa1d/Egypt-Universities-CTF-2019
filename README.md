@@ -17,5 +17,12 @@ So it's clear now he is just checking if the  argv[1] = 'cybertalent' which is t
 
 # Flag
 flag{cybertalent:P@ss}
+# Category
+Digital Forensics# Level
+Easy
+# Points
+50
+# Description
+You are given a pcap file which contain some HTTP requests and some TCP stream, you can find the flag easily just by viewing the strings.
 
-
+![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/pekz.png)

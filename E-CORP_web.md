@@ -58,22 +58,6 @@ We will do Directory Bruteforce attack to search for the file that contains the 
 
 `/README.md` :
 
->### E-CORP config ###
->Allsafe Cybersecurity Group 
->
->all data stored in SQLite database
-><!-- Website default config -->
->Modify config values in `./application/config/config.php`.
->
->- error reporting level
->- database path
->- pages
->- default page
->- security
->
->### Current config recap ###
->
-><!-- Development config -->
 >
 >$config = array();
 >

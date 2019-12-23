@@ -1,4 +1,4 @@
-# Egypt-Universities-CTF-2019
+# Egypt Universities CTF 2019
 Hey all this is 0xN1ghtRa1d team , this is our writeups for Egypt-Universities-CTF-2019 .
 # Challenge name
 Login
